@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24770fd-bdff-4dd3-9252-e2a0c02aee48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoinScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoinScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HazardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HazardController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_Recovery/0 (2).unity" beforeDir="false" afterPath="$PROJECT_DIR$/../_Recovery/0 (2).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,7 @@
       <workItem from="1760838721919" duration="1524000" />
       <workItem from="1760885697459" duration="537000" />
       <workItem from="1760964798047" duration="4337000" />
-      <workItem from="1761043387192" duration="7316000" />
+      <workItem from="1761043387192" duration="7648000" />
     </task>
     <servers />
   </component>
