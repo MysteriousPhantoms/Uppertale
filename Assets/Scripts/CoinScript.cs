@@ -1,15 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-    //The player calls this function on the coin whenever they bump into it
-    //You can change its contents if you want something different to happen on collection
-    //For example, what if the coin teleported to a new location instead of being destroyed?
-    public void GetBumped()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //This destroys the coin
-        Destroy(gameObject);
+        if (other.CompareTag("Player") && GameManager.instance != null)
+        {
+            // Add coin to GameManager
+            GameManager.instance.AddCoin();
+
+            // Save checkpoint at this coin's position
+            GameManager.instance.SetCheckpoint(transform.position);
+
+            // Hide the coin visually
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
+        }
     }
 }
